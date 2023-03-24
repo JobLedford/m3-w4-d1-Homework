@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i1,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap' );
+@import 'fonts.less';
+@import 'colors.less';
+
+.mixin1() {
+    width: 100%;
+    float: left;
+}
+
+* {
+	box-sizing: border-box !important;
+	transition: ease all 0.5s;
+}
+body {
+	width: 100%;
+	height: 100%;
+	color: @color-g;
+	font-size: 1em;
+	font-family: @font-p;
+	line-height: 1.80857;
+	font-weight: normal;
+	overflow-x: hidden;
+}
+.about_main {
+	.collection_section {
+		.mixin1();
+		margin-top: 40px;
+		.container {
+			.new_text {
+				.mixin1();
+				font-size: 2em;
+				color: @color-b;
+			}
+			.consectetur_text {
+				.mixin1();
+				font-size: 1.2em;
+				color: @color-b;
+				font-weight: 400;
+				margin-left: 0px;
+				padding-bottom: 30px;
+			}
+		}
+	}
+}
+.collection_section_3 {
+    .mixin1();
+    padding-top: 0px;
+}
+.racing_shoes {
+    .mixin1();
+    background-color: @color-ow;
+    height: auto;
+    padding-top: 70px;
+    background-size: 100%;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    .shoes-img3 {
+        .mixin1();
+        text-align: center;
+        img {
+            margin-top: 4em;
+            width: 70%;
+        }
+    }
+    .sale_text {
+        .mixin1();
+        font-size: 3em;
+        color: @color-r;
+        line-height: 75px;
+    }
+    .number_text {
+    .mixin1();
+    font-size: 3em;
+    color: @color-r;
+    line-height: 75px;
+    }
+    .seemore {
+        width: 80%;
+        height: 50px;
+        color: @color-w;
+        background-color: @color-r;
+        font-size: 1.7em;
+        margin-top: 35px;
+    }
+}
+
+.collection_text {
+	.mixin1();
+	color: @color-w;
+	text-align: center;
+	font-family: @font-s;
+	font-weight: bold;
+	font-size: 3em;
+	background-color: @color-r;
+	padding: 30px 0px;
+}
+
+.copyright {
+	.mixin1();
+	font-size: 1em;
+	color: @color-w;
+	text-align: center;
+	padding: 10px 0px;
+	background-color: @color-r;
+    font-family: @font-p;
+}
